@@ -1,13 +1,12 @@
-
-#冒泡排序
-def bubble_sort(list):
-	for i in range(len(list)):
-		for j in range(i, len(list)):
-			if list[i]>list[j]:
-				temp = list[i]
-				list[i] = list[j]
-				list[j] = temp
-    print(list)
+# 冒泡排序
+def bubble_sort(testList):
+    for i in range(len(testList)):
+		for j in range(i, len(testList)):
+			if testList[i]>testList[j]:
+				temp = testList[i]
+				testList[i] = testList[j]
+				testList[j] = temp
+	print(testList)
 
 #插入排序
 
